@@ -5,14 +5,13 @@ const path = require('path')
 const { Command } = require('commander')
 const { version } = require('../package.json')
 const { argv, cwd, exit } = process
-const currentDir = path.relative('../', cwd())
 
 const program = new Command()
 program.version(version, '-v, --version', 'output the current version')
 program
   .name('zip')
   .usage('[options]')
-  .option('-n, --name <filename>', 'zip filename', currentDir)
+  .option('-n, --name <filename>', 'zip filename')
   .option('-h, --help', 'view help information')
   .parse(argv)
 
@@ -32,15 +31,16 @@ if (options.version) {
 
 // zip .
 if (args[0] === '.') {
+  const currentDir = path.relative('../', cwd())
   zipHandle(currentDir)
-} else {
-  program.help()
 }
 
-// zip -n
+// zip -n filename
 if (options.name && typeof options.name !== 'boolean') {
-  let { name } = options
+  const { name } = options
   zipHandle(name)
+} else {
+  program.help()
 }
 
 function zipHandle(dir) {
