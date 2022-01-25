@@ -8,6 +8,6 @@ module.exports = {
     'git add .',
     `git commit -m "${desc}"`,
     'git push origin master',
-    'npm publish',
+    // 'npm publish --access',
   ],
 }
