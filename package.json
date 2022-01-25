@@ -1,6 +1,6 @@
 {
   "name": "to-zip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TO-ZIP is a command-line zip compression tool based on node and NPM",
   "main": "index.js",
   "bin": {
