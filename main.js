@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log('Welcome to zip-cli');
+console.log('Welcome to to-zip')

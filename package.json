@@ -1,6 +1,6 @@
 {
-  "name": "zip-cli",
-  "version": "1.0.0",
+  "name": "to-zip",
+  "version": "1.0.1",
   "description": "基于node和npm实现的命令行zip压缩工具",
   "main": "index.js",
   "bin": {
@@ -26,16 +26,7 @@
     "email" : "tw.email@qq.com",
     "url" : "https://tiven.cn"
   },
-  "licenses" : [
-    {
-      "type": "MIT",
-      "url": "https://www.opensource.org/licenses/mit-license.php"
-    },
-    {
-      "type": "Apache-2.0",
-      "url": "https://opensource.org/licenses/apache2.0.php"
-    }
-  ],
+  "license": "MIT",
   "dependencies": {
     "commander": "^7.1.0",
     "adm-zip": "^0.5.9"

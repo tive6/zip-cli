@@ -1,13 +1,13 @@
-# zip-cli
+# to-zip
 
 >基于node和npm实现的命令行zip压缩工具。
 
 ## 安装
 
-zip-cli 依赖 [Node.js](https://nodejs.org/en/) (>=9.x)：
+to-zip 依赖 [Node.js](https://nodejs.org/en/) (>=9.x)：
 
 ```shell
-$ npm install zip-cli -g
+$ npm install to-zip -g
 ```
 
 ## 用法
@@ -41,7 +41,3 @@ $ zip
 ```shell
 $ zip -v
 ```  
-
-[comment]: <> (## 在线文档)
-
-[comment]: <> (* 详见：[基于node和npm的命令行工具——zip-cli]&#40;https://zipn.cn/p/d85f4546/ "天問博客"&#41; )
