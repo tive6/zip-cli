@@ -1,10 +1,6 @@
-# to-zip
+# TO-ZIP is a command-line zip compression tool based on node and NPM
 
->
->基于node和npm实现的命令行zip压缩工具。
-
-
-## 安装
+## Installation
 
 to-zip 依赖 [Node.js](https://nodejs.org/en/) (>=9.x)：
 
@@ -12,13 +8,13 @@ to-zip 依赖 [Node.js](https://nodejs.org/en/) (>=9.x)：
 $ npm install to-zip -g
 ```
 
-## 用法
+## Usage
 
 ```shell
 $ zip [options]
 ```
 
-示例：
+eg：
 
 ```shell
 $ zip -n filename   # 自定义文件名zip压缩
@@ -26,7 +22,7 @@ $ zip -n filename   # 自定义文件名zip压缩
 $ zip .             # 当前目录名zip压缩
 ```
 
-## 基本命令
+## Basic command
 
 * 查看 zip 的帮助信息
   
