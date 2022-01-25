@@ -8,6 +8,7 @@
   },
   "scripts": {
     "git": "tive git -c tive.config.js",
+    "p": "npm publish --access",
     "prettier": "prettier --write **/*.{js,jsx,tsx,ts,less,md,json}"
   },
   "homepage": "https://github.com/tive6/zip-cli#readme",
